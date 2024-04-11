@@ -64,6 +64,8 @@
         <div class="new-copyright1"><?=  " Urban Outfitters" ?>&copy;All rights reserved</div>
     </div>
 </footer>
+
+
 <?php wp_footer(); ?> 
 
 

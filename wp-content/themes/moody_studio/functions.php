@@ -80,8 +80,8 @@ function custom_related_products_shortcode($atts)
 {
     $atts = shortcode_atts(array(
         'limit' => 2,
-        'left_arrow_image' => 'http://wordpress_slutprojekt.test/wp-content/uploads/2024/04/left-arrow.png',
-        'right_arrow_image' => 'http://wordpress_slutprojekt.test/wp-content/uploads/2024/04/right-arrow.png',
+        'left_arrow_image' => 'http://wordpress-moodystudio.test/wp-content/uploads/2024/04/left-arrow.png',
+        'right_arrow_image' => 'http://wordpress-moodystudio.test/wp-content/uploads/2024/04/right-arrow.png',
         'title' => 'Also You May Buy',
     ), $atts, 'custom_related_products');
 

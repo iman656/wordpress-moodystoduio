@@ -22,3 +22,44 @@
         opacity: 0.5;
     }
 }
+
+
+.bedsheet{
+
+    .box {
+        background-color: rgba(250, 249, 249, 0.9);
+        position: absolute;
+        padding: 50px 100px;
+        margin: -400px 130px;
+        width: 500px; 
+        height: 338px;
+
+        h2{
+            font-size: 28px;
+        }
+
+        h3{
+            font-size: 28px;
+            color: #eccab4;
+            margin-top: 20px;
+        }
+
+        h4{
+            font-size: 16px;
+            color: #ac9f97;
+            text-decoration: line-through;
+            position: absolute;
+            margin: -25px 110px;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: 'Roboto-Light';
+            margin-top: 20px;
+        }
+    }
+
+    .wp-element-button {
+        margin: -170px 230px;
+    }
+}
