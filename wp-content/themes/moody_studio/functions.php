@@ -167,3 +167,14 @@ function change_proceed_to_checkout_text($translated_text, $text, $domain)
     return $translated_text;
 }
 
+//email
+function mailtrap($phpmailer) {
+    $phpmailer->isSMTP();
+    $phpmailer->Host = 'sandbox.smtp.mailtrap.io';
+    $phpmailer->SMTPAuth = true;
+    $phpmailer->Port = 2525;
+    $phpmailer->Username = '58e40aad567e8e';
+    $phpmailer->Password = 'c725bdc3de5501';
+  }
+  
+  add_action('phpmailer_init', 'mailtrap');

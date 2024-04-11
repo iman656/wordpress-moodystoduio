@@ -2421,7 +2421,7 @@ class Manager {
 	 * @return bool
 	 */
 	public function enable_plugin() {
-		return null;
+		return true;
 	}
 
 	/**
